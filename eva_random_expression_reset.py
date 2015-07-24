@@ -1,3 +1,5 @@
+# This function resets back the Eva face back to its default expression. 
+# But it has to be modified in a way that is related to setting back each shape key in a way 
 import bpy
 import random
 selectedObj= bpy.context.object
