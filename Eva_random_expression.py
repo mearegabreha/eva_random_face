@@ -1,3 +1,4 @@
+#This is an inital method of communication between us guys. 
 import bpy
 import random
 selectedObj= bpy.context.object
