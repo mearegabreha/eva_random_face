@@ -130,31 +130,3 @@ for each in selectedObjShapeKeysNameArray:
         drv37.expression="(-50*fine) + (-50*gross)"
         drv38.expression="50*var"
     k= k + 1
-
-#brow_inner_UP brow_outer_UP brow_center_D brow_inner_DN brow_outer_DN (50*fine) + (50*gross)
-#eye-blink.UP.L eye-blink.LO.L eye-blink.UP.R   ((-50*flare) + ((-50*blink) * (1 - (-50*flare))))
-# eye-flare.LO.R eye-flare.UP.L eye-flare.LO.L eye-flare.UP.R eye-flare.LO.R -1*((-50*flare) + ((-50*blink) * (1 - (-50*flare))))
-# eyes-look.dn ((eyes - 0.757) - (head - 0.552)) * -3 -0.002
-# eyes-look.up ((eyes - 0.778) - (head - 0.554)) * 3
-
-#drv33=shape_key33.driver                       
-#drv= driverData.driver
-#var1 =0.0 
-# var22 =0.01
-# fine1=0.0
-# gross1=0.0
-# eyes1=0.0
-# head1=0.0
-# flare1=0.0
-# blink1=0.0
-# var=repr(var1)
-# var2=repr(var22)
-# fine=repr(fine1)
-#gross=repr(gross1)
-#eyes=repr(eyes1)
-#head=repr(head1)
-#flare=repr(flare1)
-#blink=repr(blink1)
-#drv.expression= 50*var
-
-
