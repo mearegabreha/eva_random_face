@@ -6,13 +6,6 @@ from array import array
 from numpy import ndarray
 #selectedObj= bpy.context.object
 selectedObj= bpy.data.objects['Eva']
-selectedObjShapeKeys= selectedObj.data.shape_keys
-selectedObjShapeKeysNameArray= selectedObjShapeKeys.key_blocks
-k=0
-#drv=[50]
-drv = ndarray((40,),int)
-#drv = ndarray.empty(40, dtype=object)
-#drv = [None] * 40
 expr1="50*var"
 expr2="-50*var"
 expr3="(50*fine) + (50*gross)"
