@@ -13,8 +13,8 @@ for each in selectedObjShapeKeysNameArray:
     else:
         min=bpy.data.shape_keys["Key.007"].key_blocks[k].slider_min # replace with k 
         max=bpy.data.shape_keys["Key.007"].key_blocks[k].slider_max # replace with k
-        print(min)
-        print(max)
+        #print(min)
+        #print(max)
         driverData= bpy.data.shape_keys["Key.007"].key_blocks[k].driver_add("value",-1)
         drv= driverData.driver
         var1=random.uniform(min, max)
